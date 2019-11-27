@@ -1,5 +1,5 @@
-卷積層的基本參數:
-輸入Feature map大小為(6×6×3)
-卷積核大小(3×3×3)
-移動步伐Stride=1
-補充像素Padding=0
+Input size:圖像大小
+Kernel map: N*N大小矩陣,用來與圖像做卷積,可以有多個
+Stride: 當kernel與圖像做卷積時,其在圖像上滑動時的步數
+Padding: 於圖像補0的方式
+Depth：神經元個數，決定輸出的depth深度
