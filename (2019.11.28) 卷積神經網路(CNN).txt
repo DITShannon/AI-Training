@@ -1,1 +1,9 @@
 卷積層有哪些類型及作用
+
+
+
+Depthwise Separable Convolution
+
+Dilated Convolutions
+
+ransposed convolution
