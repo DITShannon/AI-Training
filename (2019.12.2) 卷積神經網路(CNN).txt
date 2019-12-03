@@ -1,6 +1,18 @@
 Q.有哪些池化方法
 一般池化:池化作用於圖像中不重疊的區域
-max pooling:選影象區域的最大值作為該區域池化後的值。
-mean pooling:選影象區域全部的平均值作為該區域池化後的值。
+Max pooling: 選影象區域的最大值作為該區域池化後的值
+
+Average pooling: 選影象區域全部的平均值作為該區域池化後的值
+
+Lp pooling：Lp 池化是建立在複雜細胞執行機制的基礎上，受生物啟發而來
+
+Mixed pooling：就是在max/average pooling中進行隨機選擇
+
+Stochastic pooling：對feature map中的元素按照其概率值大小隨機選擇，被選中的機率與其數值大小正相關
+
+Spectral pooling
+
+Spatial pyramid pooling
+
 
 Q.卷積層與池化層差異
